@@ -27,3 +27,17 @@ Para ejecutarlo:
 ```console
 java Holamundo.java
 ```
+
+## Que se estudia en programación
+
+*Lenguaje de programacion Java
+*Comandos de Linux
+*Git y Github
+
+## Bibliografia
+
+<img src="imagenes/hero.jpeg" width="240px">
+
+[Aprende Java con ejercicios](https://leanpub.com/aprendejava)
+
+
