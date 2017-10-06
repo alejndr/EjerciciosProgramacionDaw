@@ -30,9 +30,9 @@ java Holamundo.java
 
 ## Que se estudia en programación
 
-*Lenguaje de programacion Java
-*Comandos de Linux
-*Git y Github
+* Lenguaje de programacion Java
+* Comandos de Linux
+* Git y Github
 
 ## Bibliografia
 
