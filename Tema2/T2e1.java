@@ -9,7 +9,7 @@
 
 
 
-public class t2e1 {
+public class T2e1 {
   public static void main(String[] args) {
 
     int x = 144;

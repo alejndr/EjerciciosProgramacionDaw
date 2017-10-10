@@ -9,7 +9,7 @@
 
 
 
-public class t2e2 {
+public class T2e2 {
   public static void main(String[] args) {
 
     String miNombre = "Alejandro";

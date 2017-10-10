@@ -4,7 +4,7 @@
  */
 
 
-public class t1e8 {
+public class T1e8 {
   public static void main(String[] args) {
     System.out.printf("%s\n",  "*********");
     System.out.printf("%s\n",  " *     *");

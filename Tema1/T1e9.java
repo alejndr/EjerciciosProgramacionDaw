@@ -7,7 +7,7 @@
  */
 
 
-public class t1e9 {
+public class T1e9 {
   public static void main(String[] args) {
     System.out.printf("%s\n",  "  *********");
     System.out.printf("%s\n",  " ***********");

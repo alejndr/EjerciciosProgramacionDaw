@@ -4,7 +4,7 @@
  */
 
 
-public class t2e4 {
+public class T2e4 {
 	
 	public static void main (String[] args) {
 		

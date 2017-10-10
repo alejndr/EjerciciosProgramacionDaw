@@ -5,7 +5,7 @@
  */
 
 
-public class t1e5alt { // Clase principal
+public class T1e5alt { // Clase principal
   public static void main(String[] args) {
 	  
 	String rojo = "\033[31m";
