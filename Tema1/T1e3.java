@@ -9,7 +9,7 @@
  
  
  
-public class t1e3 { // Clase principal
+public class T1e3 { // Clase principal
   public static void main(String[] args) {
     System.out.println("Ingles   -   Castellano");
     System.out.println("-----------------------");

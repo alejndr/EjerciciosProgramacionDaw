@@ -4,7 +4,7 @@
  * */
 
 
-public class t1e4 { // Clase principal
+public class T1e4 { // Clase principal
   public static void main(String[] args) {
     System.out.printf("%s\n","         Horario 1º de DAW");
     System.out.printf("%-5s   %-5s   %-5s   %-5s   %-5s\n" ,"SINF", "PROG", "SINF", "PROG", "PROG");
