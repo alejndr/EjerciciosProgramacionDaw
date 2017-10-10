@@ -1,4 +1,4 @@
-# EjerciciosProgramacionDaw
+# Ejercicios de Programación de Daw
 
 Ejercicios de **programación** de 1º de **DAW**(Desarrollo de Aplicaciones Web).
 
@@ -28,13 +28,13 @@ Para ejecutarlo:
 java Holamundo.java
 ```
 
-## Que se estudia en programación
+## Qué se estudia en programación
 
 * Lenguaje de programacion Java
 * Comandos de Linux
 * Git y Github
 
-## Bibliografia
+## Bibliografía
 
 <img src="imagenes/hero.jpeg" width="240px">
 
