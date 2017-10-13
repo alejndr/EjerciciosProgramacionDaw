@@ -17,8 +17,10 @@ public class T3e12 {
     int nota = Integer.parseInt( System.console().readLine() );
     System.out.print("¿Qué nota quieres sacar en el trimestre?: ");
     int notaTri = Integer.parseInt( System.console().readLine() );
+    
+    int nota2 = ((notaTri * 100) - (nota * 40)) / 60;
 
-    System.out.print("Para tener un: " + notaTri + " en el trimestre necesitas sacar un " + + "En el segundo examen.");
+    System.out.print("Para tener un: " + notaTri + " en el trimestre necesitas sacar un " + nota2 + " en el segundo examen.");
     
 	}
 }
