@@ -10,7 +10,7 @@ public class T3e8 {
 	
 	public static void main (String[] args) {
 		
-    System.out.println("    ---Calculador de IVA general---: ");
+    System.out.println("    ---Calculador de salario segun horas semanales---: ");
     System.out.print("Por favor, introduce las horas que has trabajado esta semana: ");
     float horas = Integer.parseInt( System.console().readLine() );
 
