@@ -7,26 +7,20 @@
  * @author Alejandro mv
  */
 
-public class T4e2 {
+public class T4e4 {
   public static void main(String[] args) {   
        
     System.out.print("Por favor, introduzca que hora es (sin minutos): ");
-    int hora = Integer.parseInt(System.console().readLine());
+    int horas = Integer.parseInt(System.console().readLine());
     
+    int salario = horas * 12;
     
+    if (horas > 41 ) {
+       int dinero = salario;
+    } else {
+       int dinero = ((horas - 40)*16) + salario;
+    }
     
-    if (hora >= 6 && hora <= 12 ) {
-      System.out.println("Buenos dias.");
-    } else {
-      if (hora >= 13 && hora <= 20 ) {
-      System.out.println("Buenas tardes.");
-    } else {
-      if (hora >= 21 || hora <= 5 ) {
-      System.out.println("Buenos noches.");
-    } else {
-      System.out.println("El número introducido no es válido.");
-    }
-    }
-    }
+    System.out.print("Tu salario de la semana es: " + dinero);
   }
 }
