@@ -15,9 +15,10 @@ public class T4e4 {
     
     int salario = horas * 12;
     
-    if (horas > 41 ) {
+    if (horas >= 41 ) {
        int dinero = salario;
-    } else {
+    } 
+    if (horas <= 41 ) {
        int dinero = ((horas - 40)*16) + salario;
     }
     
