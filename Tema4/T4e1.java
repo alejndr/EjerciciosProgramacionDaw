@@ -20,7 +20,7 @@ public class T4e1 {
       case "martes":
         asignatura = "Programación";
         break;
-      case "miercoles":
+      case "miércoles":
         asignatura = "Sistemas";
         break;
       case "jueves":

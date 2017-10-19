@@ -11,9 +11,9 @@ public class T4e5 {
   public static void main(String[] args) {   
        
     System.out.println("Vamos a resolver una ecuacion de segundo grado, del tipo: ax+b=0");
-    System.out.println("Por favor, introduce A: ");
+    System.out.print("Por favor, introduce A: ");
     Double a = Double.parseDouble(System.console().readLine());
-    System.out.println("Por favor, introduce B: ");
+    System.out.print("Por favor, introduce B: ");
     Double b = Double.parseDouble(System.console().readLine());
     
     if (a < 1) {
