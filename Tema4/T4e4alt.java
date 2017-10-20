@@ -18,7 +18,7 @@ public class T4e4 {
     if (horas >= 41 ) {
       System.out.print("Tu salario de la semana es: " + salario);
     } 
-    else if (horas <= 41 ) {
+    if (horas <= 41 ) {
       System.out.print("Tu salario de la semana es: " + ((horas - 40)*16) + salario);
     }
   }
