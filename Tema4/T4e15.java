@@ -56,7 +56,7 @@ public class T4e15 {
         System.out.println(" "+O+" "+O+" "+O+" "+O+" "+O);
         System.out.println("   "+O+" "+O+" "+O+" "+O);
         System.out.println("     "+O+" "+O+" "+O);
-		System.out.println("       "+O+" "+O);
+        System.out.println("       "+O+" "+O);
         System.out.println("         "+O);
         break;
       default:
