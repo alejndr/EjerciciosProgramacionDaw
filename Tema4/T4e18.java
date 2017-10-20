@@ -8,7 +8,7 @@
 public class T4e18 {
   public static void main(String[] args) {   
   System.out.print("Vamos a decir la primera cifra de un número");
-  System.out.print("Introduce un número(entero): ");
+  System.out.print("Introduce un número(entero con menos de 5 cifras): ");
   int numero = Integer.parseInt(System.console().readLine());
   
   if(numero < 10){System.out.print("La primera cifra de tu número: " + numero);}
