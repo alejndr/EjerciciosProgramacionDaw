@@ -22,7 +22,10 @@ public class T4e21 {
   
   int media = (nota1 + nota2) / 2;
   
-  if (media >= 5) {
+  if (media < 0 || media > 10) {
+  System.out.print("Nota incorrecta, por favor introduce tu nota de 0 a 10");}
+  
+  else if (media >= 5) {
   System.out.print("media del trimestre: " + media);
   } else {
   System.out.print("¿Cuál ha sido el resultado de la recuperación? (apto/no apto): ");
