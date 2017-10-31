@@ -9,6 +9,7 @@
  */
 public class T5e12 {
   public static void main(String[] args) {
+    System.out.println("Dime cuantos digitos quieres que te saque de la secuencia de Fibonacci:");
     System.out.print("Introduce un número entero: ");
     int repeticion = Integer.parseInt(System.console().readLine());
     
@@ -43,7 +44,7 @@ public class T5e12 {
         b = aux + b;
         
         System.out.println(b);
-      }
+        }
     }
     
     
