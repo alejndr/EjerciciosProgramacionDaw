@@ -41,7 +41,14 @@ public class T5e21 {
         mediaimpar = mediaimpar + intro;
   
       }
-        
+      
+      if (intro < 0) {
+      contador = contador - intro;
+      pares = pares - intro;
+      mediaimpar = mediaimpar - intro;
+      divi = divi - 1;
+      }
+      
     }
   
   } while (intro >= 0);

@@ -12,7 +12,7 @@ public class T5e22 {
    boolean esPrimo = true;
 
   
-  for (int numero = 2;numero <= 100;numero++) {
+  for (int numero = 3;numero <= 100;numero++) {
     
     esPrimo = true;
     
