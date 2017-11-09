@@ -10,7 +10,7 @@
 
 public class Ejercicio1 {
   public static void main(String[] args) {
-  System.out.println("Título");
+  System.out.println("Este programa calculara cuantos números introduces, el maximo, el minimo y la media entre ellos, cuando termines introduce un número primo.");
   
   int intro = 0;
   int media = 0;
@@ -36,23 +36,27 @@ public class Ejercicio1 {
     
     if (primo) {
     
-    noPrimo = false;
+      noPrimo = false;
+    }
+    
+    if (primo) {
       
+    break;
     }
     
     if (intro > maximo) {
     
-    maximo = intro;
+      maximo = intro;
     }
     
     
     if (contador == 0) {
       
-    minimo = intro;
+      minimo = intro;
     }
     if (intro < minimo) {
     
-    minimo = intro;
+      minimo = intro;
     } 
     
     
