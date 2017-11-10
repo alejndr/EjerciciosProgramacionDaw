@@ -7,17 +7,17 @@
  */
 
 
-public class pruebaprimo {
+public class T5e16 {
   public static void main(String[] args) {
   System.out.println("Este programa va a decirnos si el número introducido es primo o no.");
   System.out.print("Introduce un número entero: ");
   int numero = Integer.parseInt(System.console().readLine());
  
-  boolean primo = false;
+  boolean primo = true;
   
   for (int i = 2;i < numero;i++) {
-  if ((numero%i) != 0) {
-    primo = true;
+  if ((numero%i) == 0) {
+    primo = false;
   }
   
   }
