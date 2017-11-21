@@ -82,8 +82,5 @@ public class T6e02 {
         
       }
       
-      
-    
-    
   }
 }
