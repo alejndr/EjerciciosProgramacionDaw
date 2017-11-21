@@ -69,11 +69,13 @@ public class pruebavuelta {
   } while (i < 11);
   
   
+/*GENERADORES DE NUMEROS ALEATORIOS*/
+
+/*Generador de 0 a 10, los 2 incluidos*/
+(int)(Math.random()*11)
   
-  
-  
-  
-  
+/*Generador de 100 a 199 incluidos*/
+(int)(Math.random()*100+100)
   
 
 
