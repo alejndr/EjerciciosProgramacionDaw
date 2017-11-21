@@ -7,7 +7,7 @@
  */
 
 
-public class T5e16 {
+public class PruebaPrimo {
   public static void main(String[] args) {
   System.out.println("Este programa va a decirnos si el número introducido es primo o no.");
   System.out.print("Introduce un número entero: ");

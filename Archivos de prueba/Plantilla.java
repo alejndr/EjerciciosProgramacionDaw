@@ -20,9 +20,10 @@ public class pruebavuelta {
   System.out.printf("El número %d no tiene decimales.\n", 21);
   System.out.printf("El número %f sale con decimales.\n",  21.0);
   System.out.printf("El %.3f sale exactamente con 3 decimales.\n", 21.0);
-
+  System.out.printf("El %s", "numero");
+  
 /*INTRODUCCION DE DATOS*/
-  string nombre = System.console().readLine();
+  String nombre = System.console().readLine();
   int primerNumero = Integer.parseInt( System.console().readLine() );
 
 /*CONDICIONALES*/
