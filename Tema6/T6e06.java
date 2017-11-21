@@ -31,6 +31,10 @@ public class T6e06 {
           System.out.println("Lo siento, ese no es, prueba a decir una cifra menor, te quedan " + (5 - i) + " intentos");
           }
         }
+        
+      if (i == 5){
+      System.out.println("Lo siento, ya no te quedan mas intentos, el numero era: " + solucion);
+      }
     }
   }
 }
