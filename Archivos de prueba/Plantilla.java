@@ -6,10 +6,10 @@
 
 
 /*BASE*/
-public class pruebavuelta {
+public class nombreclase {
   public static void main(String[] args) {
-  System.out.println("Este programa va a darle la vuelta al número introducido.");
-  System.out.print("Introduce un número entero: ");
+  System.out.println("Texto con salto de linea");
+  System.out.print("Texto sin salto de linea");
 
   
   }
@@ -20,7 +20,7 @@ public class pruebavuelta {
   System.out.printf("El número %d no tiene decimales.\n", 21);
   System.out.printf("El número %f sale con decimales.\n",  21.0);
   System.out.printf("El %.3f sale exactamente con 3 decimales.\n", 21.0);
-  System.out.printf("El %s", "numero");
+  System.out.printf("La palabra %s ", "numero");
   
 /*INTRODUCCION DE DATOS*/
   String nombre = System.console().readLine();

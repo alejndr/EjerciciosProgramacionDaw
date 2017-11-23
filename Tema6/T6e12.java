@@ -8,7 +8,7 @@
 
 
 public class T6e12 {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws InterruptedException {
   
   
   boolean enterTheMatrix = true;
@@ -16,9 +16,10 @@ public class T6e12 {
   String verde = "\033[32m";
   
   while (enterTheMatrix) {
-  matrix = (int)(Math.random()*127)+32;
+  matrix = (int)(Math.random()*94/*con 127 es mas divertido*/)+32;
 
   System.out.print(verde + (char)matrix);
+  Thread.sleep(1);
   }
   
   }
