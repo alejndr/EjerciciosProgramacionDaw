@@ -7,7 +7,7 @@
  * @author Alejandro mv
  */
 
-public class T4e4 {
+public class T4e4alt {
   public static void main(String[] args) {   
        
     System.out.print("Por favor, introduzca que hora es (sin minutos): ");

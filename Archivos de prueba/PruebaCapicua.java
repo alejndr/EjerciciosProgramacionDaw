@@ -9,7 +9,7 @@
  */
 
 
-public class T5e36 {
+public class PruebaCapicua {
   public static void main(String[] args) {
   System.out.println("Este programa va a comprobar si tu número es capicua.");
   System.out.print("Introduce un número entero positivo: ");

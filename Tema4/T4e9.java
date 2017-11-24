@@ -5,7 +5,7 @@
  * @author Alejandro mv
  */
 
-public class T4e5 {
+public class T4e9 {
   public static void main(String[] args) {   
        
     System.out.println("Vamos a resolver una ecuacion de segundo grado, del tipo: ax+b=0");

@@ -9,7 +9,7 @@
 
 
 
-public class T6e11 {
+public class T6e11alt {
   public static void main(String[] args) {
   System.out.println("Este programa va a generar 20 notas escolares al azar y nos va a contar cuantas hay de cada tipo: ");
   System.out.println("");

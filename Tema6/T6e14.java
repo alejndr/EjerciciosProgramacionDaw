@@ -16,13 +16,13 @@ public class T6e14 {
   System.out.println("Piensa en un número del 0 al 100 y intentare adivinarlo.");
   int solucion = 0;
   String respuesta = "";
-  int menorAleatorio = 101;
+  int menorAleatorio = 0;
   String respuestaMayorMenor = "";
-  int mayorAleatorio = 0;
+  int mayorAleatorio = 101;
   
   
     for (int i = 1; i < 6; i++) {
-      solucion = (int)((Math.random()*menorAleatorio)+mayorAleatorio);
+      solucion = (int)((Math.random()*mayorAleatorio - menorAleatorio) + menorAleatorio);
       System.out.println("¿Es el numero " + solucion + " ? (s/n): ");
       respuesta = (System.console().readLine());
       
@@ -35,12 +35,10 @@ public class T6e14 {
           respuestaMayorMenor = (System.console().readLine());
           
           if (respuestaMayorMenor.equals("mayor")) {
-            menorAleatorio -= solucion;
-            mayorAleatorio += solucion;
-            
+          menorAleatorio = solucion + 1;
+          
           } else {
-            menorAleatorio -= solucion;
-            
+            mayorAleatorio = solucion - 1;
             
             }
           
