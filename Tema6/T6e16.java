@@ -22,6 +22,7 @@ public class T6e16 {
       int figura3 = 0;
 
       System.out.println("Maquina tragaperras, haga su tirada:");
+      System.out.println("");
       
     
       figura1 = (int)(Math.random()*5);
@@ -30,38 +31,38 @@ public class T6e16 {
 
       switch (figura1){
         case 0:
-        System.out.print("Limón ");
+        System.out.print("Limón  ");
           break;
         case 1:
-        System.out.print("Campana ");
+        System.out.print("Campana  ");
           break;
         case 2:
-        System.out.print("Herradura ");
+        System.out.print("Herradura  ");
           break;
         case 3:
-        System.out.print("Diamante ");
+        System.out.print("Diamante  ");
           break;
         case 4:
-        System.out.print("Corazón ");
+        System.out.print("Corazón  ");
           break;  
         default:
       }
 
       switch (figura2){
         case 0:
-        System.out.print("Limón ");
+        System.out.print("Limón  ");
           break;
         case 1:
-        System.out.print("Campana ");
+        System.out.print("Campana  ");
           break;
         case 2:
-        System.out.print("Herradura ");
+        System.out.print("Herradura  ");
           break;
         case 3:
-        System.out.print("Diamante ");
+        System.out.print("Diamante  ");
           break;
         case 4:
-        System.out.print("Corazón ");
+        System.out.print("Corazón  ");
           break;  
         default:
       }
@@ -69,18 +70,23 @@ public class T6e16 {
       switch (figura3){
         case 0:
         System.out.println("Limón ");
+        System.out.println("");
           break;
         case 1:
         System.out.println("Campana ");
+        System.out.println("");
           break;
         case 2:
         System.out.println("Herradura ");
+        System.out.println("");
           break;
         case 3:
         System.out.println("Diamante ");
+        System.out.println("");
           break;
         case 4:
         System.out.println("Corazón");
+        System.out.println("");
           break;  
         default:
       }
