@@ -35,7 +35,6 @@ public class T7e06 {
   System.out.println(array[i]);
   }
   
-
   }
   
 }

@@ -58,6 +58,11 @@ public class nombreclase {
   for (int i = 1; i < 11; i++) {
   System.out.println(i);
   }
+
+  /*FOR EACH, sirve para soltar un array completo, notafinal seria un array */
+  for (int n : notafinal) {
+    System.out.println(n);
+  }
   
   while (i < 11) {
   System.out.println(i);
