@@ -15,25 +15,25 @@ public class T7e06 {
     
   System.out.println("Introduce 15 numeros enteros por teclado: ");
   
-  int aux = 0;
-  int[] array = new int[15];
+    int aux = 0;
+    int[] array = new int[15];
 
-  for (int i = 0;i < 15;i++) {
-    array[i] = Integer.parseInt( System.console().readLine() );
-    
-  }
+    for (int i = 0;i < 15;i++) {
+      array[i] = Integer.parseInt( System.console().readLine() );
+      
+    }
 
-  aux = array[14];
-  for (int i = 14;i > 0;i--) {
-    
-    array[i] = array[i-1];
-    
-  }
-  array[0] = aux;
+    aux = array[14];
+    for (int i = 14;i > 0;i--) {
+      
+      array[i] = array[i-1];
+      
+    }
+    array[0] = aux;
 
-  for (int i = 0;i < 15;i++) {
-  System.out.println(array[i]);
-  }
+    for (int i = 0;i < 15;i++) {
+      System.out.println(array[i]);
+    }
   
   }
   

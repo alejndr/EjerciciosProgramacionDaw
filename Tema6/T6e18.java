@@ -15,27 +15,27 @@ public class T6e18 {
   public static void main(String[] args) {
   System.out.println("Generador de 3 colores aleatorios:");
 
-  int color1 = 0;
-  int color2 = 0;
-  int color3 = 0;
+    int color1 = 0;
+    int color2 = 0;
+    int color3 = 0;
 
-  String[] arrayColor = new String[6]; 
-          
-  arrayColor[0] = "rojo";
-  arrayColor[1] = "azul";
-  arrayColor[2] = "verde";
-  arrayColor[3] = "amarillo";
-  arrayColor[4] = "violeta";
-  arrayColor[5] = "naranja";
+    String[] arrayColor = new String[6]; 
+            
+    arrayColor[0] = "rojo";
+    arrayColor[1] = "azul";
+    arrayColor[2] = "verde";
+    arrayColor[3] = "amarillo";
+    arrayColor[4] = "violeta";
+    arrayColor[5] = "naranja";
 
-  do {
-    color1 = (int)(Math.random() * 6);
-    color2 = (int)(Math.random() * 6);
-    color3 = (int)(Math.random() * 6);
-  } while ( (color1 == color2) || (color2 == color3) || (color3 == color1));
+    do {
+      color1 = (int)(Math.random() * 6);
+      color2 = (int)(Math.random() * 6);
+      color3 = (int)(Math.random() * 6);
+    } while ( (color1 == color2) || (color2 == color3) || (color3 == color1));
 
 
-  System.out.print(arrayColor[color1] + ", " + arrayColor[color2] + ", " + arrayColor[color3]);
+    System.out.print(arrayColor[color1] + ", " + arrayColor[color2] + ", " + arrayColor[color3]);
 
   
   }
