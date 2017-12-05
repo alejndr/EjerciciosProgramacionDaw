@@ -8,8 +8,8 @@
 /*BASE*/
 public class nombreclase {
   public static void main(String[] args) {
-  System.out.println("Texto con salto de linea");
-  System.out.print("Texto sin salto de linea");
+    System.out.println("Texto con salto de linea");
+    System.out.print("Texto sin salto de linea");
 
   
   }
@@ -56,7 +56,7 @@ public class nombreclase {
 /*BUCLES*/
 
   for (int i = 1; i < 11; i++) {
-  System.out.println(i);
+    System.out.println(i);
   }
 
   /*FOR EACH, sirve para soltar un array completo, notafinal seria un array */
@@ -65,12 +65,12 @@ public class nombreclase {
   }
   
   while (i < 11) {
-  System.out.println(i);
+    System.out.println(i);
   }
   
   do {
-  System.out.println(i);
-  i++;
+    System.out.println(i);
+    i++;
   } while (i < 11);
   
   
