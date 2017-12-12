@@ -5,7 +5,7 @@
  */
 
 
-/*BASE*/
+
 public class nombreclase {
   public static void main(String[] args) {
     System.out.println("Texto con salto de linea");
