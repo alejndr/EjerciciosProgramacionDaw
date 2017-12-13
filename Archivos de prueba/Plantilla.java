@@ -38,19 +38,19 @@ public class nombreclase {
  * ! = LA CONDICION ES FALSA
  */
 
-  switch (mes) {
-    case 1:
-      nombreDelMes = "enero";
+  switch (variable) {
+      case 1:
+      
       break;
-    case 2:
-      nombreDelMes = "febrero";
+      case 2:
+      
       break;
-    case 3:
-      nombreDelMes = "marzo";
+      case 3:
+      
       break;
 
     default:
-      nombreDelMes = "no existe ese mes";
+      
   }
 
 /*BUCLES*/
