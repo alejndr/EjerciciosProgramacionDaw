@@ -1,3 +1,6 @@
 # Archivos compilados
 
 *.class
+/Tema8/T8Ej1a14/build/
+/Tema8/T8Ej1a14/dist/
+/Tema8/T8Ej1a14/nbproject/private/

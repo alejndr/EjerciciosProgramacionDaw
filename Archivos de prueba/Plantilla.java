@@ -4,13 +4,17 @@
  * @author Alejandro MV
  */
 
-
+import java.util.Scanner; /*Scanner*/
 
 public class nombreclase {
   public static void main(String[] args) {
-    System.out.println("Texto con salto de linea");
-    System.out.print("Texto sin salto de linea");
 
+    Scanner s = new Scanner(System.in); /*Scanner*/
+    
+    System.out.println("Texto con salto de linea");
+    
+    numero = s.nextInt(); /*Scanner*/
+	
   
   }
   
