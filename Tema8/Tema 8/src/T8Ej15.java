@@ -6,7 +6,7 @@
  * 
  * @author alejandro
  */
-public class T18Ej15 {
+public class T8Ej15 {
   public static void main(String[] args) {
     
     int num = 2;
