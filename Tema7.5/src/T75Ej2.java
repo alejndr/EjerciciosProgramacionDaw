@@ -25,18 +25,21 @@ import java.util.Scanner;
       
       //MOSTRAR ARRAY BIDIMENSIONAL
       //El 3 es el numero de filas del array
-      for (int i=0;i < 4 ;i++) {
+      for (int i=0;i < 5 ;i++) {
         //El 6 es el numero de columnas
-        for (int e=0;e < 5 ;e++) {
-          System.out.printf("┃%3d ", num[i][e]);
+        
+        for (int e=0;e < 6 ;e++) {
           
-          num[i][6] += num[i][e];
+            System.out.printf("┃%3d ", num[i][e]);
+            // Los numeros de la fila que esta recorriendo se suman a la ultima posición del array.
+            num[i][5] += num[i][e];
+            num[4][e] += num[i][e];
+            
         }
+        
         System.out.println(" ");
       }
       
-      
-
     }
   
 }
