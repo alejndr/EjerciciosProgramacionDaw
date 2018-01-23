@@ -162,7 +162,7 @@ public class array {
     int[] a = x.clone(); // clona en a el contenido de x
     int i;
     int aux;
-    
+  
     while (n-- > 0) {
       aux = a[a.length - 1];
       for(i = a.length - 1; i > 0; i--) {
