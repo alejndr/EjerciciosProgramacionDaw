@@ -1,0 +1,39 @@
+Ej1
+
+Nombre
+Apellidos
+Peso
+Escuderia
+Equipo
+
+Piloto
+
+Ej2
+
+ tom, silvestre,
+ bucefalo,
+ pato_lucas.
+
+Mineral
+	pirita
+	Cuarzo
+
+
+Personas
+	Javier
+	Paula
+
+Animal
+	Caballo
+		Rocinante
+		Pegaso
+	Perro
+		goofy
+		Snoopy	
+		Pluto
+		Milu
+		Laika
+		Ayudante_de_santa_claus
+	Gato
+		Gardfield
+		
