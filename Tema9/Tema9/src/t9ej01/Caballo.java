@@ -75,7 +75,7 @@ public class Caballo {
 
   @Override
   public String toString() {
-    return "Caballo{" + "nombre=" + nombre + ", peso=" + peso + ", altura=" + altura + ", color=" + color + ", velocidad=" + velocidad + ", jinete=" + jinete + '}';
+    return "Caballo:\n" + "nombre=" + nombre + "\n peso=" + peso + "\n altura=" + altura + "\n color=" + color + "\n velocidad=" + velocidad + "\n jinete=" + jinete + '}';
   }
 
   public void galopa() {
@@ -85,7 +85,7 @@ public class Caballo {
   public String getNombre() {
     return nombre;
   }
-  
+
   // Metodo para aparear dos caballos
   public Caballo seApareaCon(Caballo pareja, String nombreSiHembra, String nombreSiMacho) {
     if (pareja.getSexo().equals(this.sexo)) {
@@ -93,7 +93,7 @@ public class Caballo {
       return null;
     } else {
       Caballo cria = new Caballo();
-      
+
       if ((int) (Math.random() * 2) == 0) {
         cria.setSexo("hembra");
         cria.setNombre(nombreSiHembra);
@@ -103,6 +103,6 @@ public class Caballo {
       }
       return cria;
     }
-    
+
   }
 }
