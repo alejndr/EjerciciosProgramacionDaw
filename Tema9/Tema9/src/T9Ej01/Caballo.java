@@ -1,4 +1,4 @@
-package tema9;
+package T9Ej01;
 
 /**
  *
@@ -63,5 +63,9 @@ public class Caballo {
   @Override
   public String toString() {
     return "Caballo{" + "nombre=" + nombre + ", peso=" + peso + ", altura=" + altura + ", color=" + color + ", velocidad=" + velocidad + ", jinete=" + jinete + '}';
+  }
+  
+  public void galopa(){
+    System.out.println(this.nombre+" corre como el viento.");
   }
 }

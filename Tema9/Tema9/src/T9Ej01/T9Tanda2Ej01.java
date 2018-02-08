@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tema9;
+package T9Ej01;
 
 /**
  *
@@ -19,8 +19,10 @@ public class T9Tanda2Ej01 {
     rocinante.setJinete(pepe);
     
 	   System.out.println(pepe);
-     pepe.espolea("cariñosamente");
+     pepe.espolea("agresivamente");
      System.out.println(rocinante);
+     
+     rocinante.galopa();
   
   }
 }

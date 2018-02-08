@@ -13,12 +13,7 @@ public class nombreclase {
     numero = s.nextInt(); /*Scanner*/
     
     System.out.println("Texto con salto de linea");
-    
-    
-	
-  
   }
-  
 }
 
 /*SALIDA FORMATEADA */
