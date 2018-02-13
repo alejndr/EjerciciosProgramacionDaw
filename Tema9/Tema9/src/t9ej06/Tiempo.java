@@ -72,18 +72,8 @@ public class Tiempo {
   
   public Tiempo resta(Tiempo n) {
 
-    this.hora -= n.hora;
-    
-    while (this.hora < 0) {
-    this.minuto-=60;
-    this.hora+=1;
-    }
-    
-    this.minuto-=n.minuto;
-    
-    while(this.minuto > 0){
-    
-    }
+    this.segundo-=n.segundo;
+    //WIP
     
     Tiempo aux = new Tiempo(this.hora, this.minuto, this.segundo);
     
