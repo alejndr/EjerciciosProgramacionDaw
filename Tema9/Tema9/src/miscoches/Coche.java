@@ -9,7 +9,7 @@ package miscoches;
  *
  * @author alejandro
  */
-public class Coche {
+public class Coche implements ICoche{
   String marca;
   String modelo;
   String color;
